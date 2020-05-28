@@ -43,10 +43,11 @@ make
 
 Build types (`Release` by default):
    
-*  `Coverage` — test coverage,
-*  `ASan`, `ASanDbg` — [address sanitizer](http://en.wikipedia.org/wiki/AddressSanitizer),
-*  `MemSan`, `MemSanDbg` — [memory sanitizer](http://code.google.com/p/memory-sanitizer/),
-*  `Check` — strict compile rules.
+-  `Debug` — for debugging;
+-  `Coverage` — test coverage;
+-  `ASan`, `ASanDbg` — [address sanitizer](http://en.wikipedia.org/wiki/AddressSanitizer);
+-  `MemSan`, `MemSanDbg` — [memory sanitizer](http://code.google.com/p/memory-sanitizer/);
+-  `Check` — strict compile rules.
 
 The `BUILD_FAST` option (`OFF` by default) switches from safe (constant-time) 
 functions to fast (non-constant-time) ones.
@@ -72,4 +73,3 @@ is that a bee in the right-bottom corner, our logo, designates the
 constellation known as *Apes* (Latin for bees) in Skaryna's time. This 
 constellation was later renamed in *Musca Borelias* (Latin for northern 
 fly) and then absorbed by *Aries*.
-
