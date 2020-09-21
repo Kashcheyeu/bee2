@@ -148,7 +148,8 @@ T == octet.
 	defined(__MRC__) || defined(__MVS__) || defined(__MWERKS__) ||\
 	defined(sparc) || defined(__sparc) || defined(SYMANTEC_C) ||\
 	defined(__VOS__) || defined(__TIGCC__) || defined(__TANDEM) ||\
-	defined(THINK_C) || defined(__VMCMS__) || defined(_AIX)
+	defined(THINK_C) || defined(__VMCMS__) || defined(_AIX) ||\
+	defined(__s390x__) 
 	#define OCTET_ORDER BIG_ENDIAN
 #else
 	#error "Platform undefined"
